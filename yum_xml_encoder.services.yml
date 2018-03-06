@@ -1,0 +1,5 @@
+services:
+  serializer.encoder.yum_xml:
+    class: Drupal\yum_xml_encoder\Encoder\XmlEncoder
+    tags:
+      - { name: encoder, format: yum_xml }

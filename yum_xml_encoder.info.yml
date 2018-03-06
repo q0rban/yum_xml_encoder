@@ -1,0 +1,6 @@
+type: module
+name: Yum XML Encoder
+description: "An XML Encoder for Yum Int'l style XML."
+core: 8.x
+dependencies:
+  - serialization
